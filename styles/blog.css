@@ -83,10 +83,12 @@ nav ul a {
 .banner-title {
   color: #252432;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 65px;
   margin-top: 150px;
   margin-bottom: 80px;
   text-align: center;
+  width:905px
+
 }
 
 /* header styles */
