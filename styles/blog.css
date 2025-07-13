@@ -119,3 +119,190 @@ nav ul a {
   color: #444;
   margin-top: 8px;
 }
+/* ======= What Our Users Say ======= */
+.users-say {
+  background-color: #e5edf5;
+  padding: 80px 20px;
+  text-align: center;
+}
+.users-say .section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  max-width: 300px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: left;
+}
+.stars {
+  color: #f59e0b;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+.card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+.card .quote {
+  font-style: italic;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.review-info .name {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.review-info .date {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+/* ======= Ready to Focus Better Section ======= */
+.focus-section {
+  border: 2px solid #3b82f6;
+  border-radius: 12px;
+  padding: 60px 20px;
+  margin: 60px auto;
+  text-align: center;
+  max-width: 1140px;
+  background-color: #ffffff;
+}
+.focus-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.focus-subtext {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+.focus-btn {
+  padding: 10px 24px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.focus-btn:hover {
+  background-color: #2563eb;
+}
+.focus-image-wrapper {
+  margin-top: 20px;
+}
+.focus-img {
+  width: 100%;
+  max-width: 840px;
+  border-radius: 48px;
+  
+}
+/* ===== Contact Section ===== */
+.contact-section {
+  background-color: #f1f5f9;
+  padding: 60px 20px;
+}
+.contact-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.contact-title {
+  font-size: 77px;
+  font-weight: 700;
+  line-height: 120%;
+  flex: 1;
+  min-width: 250px;
+  width: 528px;
+}
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 300px;
+}
+.contact-form label {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+.contact-form button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.contact-form button:hover {
+  background-color: #2563eb;
+}
+
+/* ===== Footer Section ===== */
+.footer {
+  background-color: #e2e8f0;
+  padding: 40px 20px;
+  text-align: center;
+}
+.footer-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3b82f6;
+  margin-bottom: 10px;
+}
+.footer-desc {
+  color: #475569;
+  font-size: 0.95rem;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.footer-nav a {
+  color: #1e293b;
+  text-decoration: none;
+  font-weight: 500;
+}
+.footer-nav a:hover {
+  text-decoration: underline;
+}
